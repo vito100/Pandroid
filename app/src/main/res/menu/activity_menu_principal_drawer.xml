@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Cliente">
+            <menu>
+                <item
+                    android:id="@+id/agregarCliente"
+                    android:icon="@drawable/men"
+                    android:title="Agregar" />
+                <item
+                    android:id="@+id/eliminarCliente"
+                    android:icon="@drawable/men"
+                    android:title="Eliminar" />
+                <item
+                    android:id="@+id/modificarCliente"
+                    android:icon="@drawable/men"
+                    android:title="Modificar" />
+                <item
+                    android:id="@+id/listarCliente"
+                    android:icon="@drawable/men"
+                    android:title="Listar" />
+            </menu>
+        </item>
+        <item android:title="Proveedor">
+            <menu>
+                <item
+                    android:id="@+id/agregarProveedor"
+                    android:icon="@drawable/men"
+                    android:title="Agregar" />
+                <item
+                    android:id="@+id/eliminarProveedor"
+                    android:icon="@drawable/men"
+                    android:title="Eliminar" />
+                <item
+                    android:id="@+id/modificarProveedor"
+                    android:icon="@drawable/men"
+                    android:title="Modificar" />
+                <item
+                    android:id="@+id/listarProveedor"
+                    android:icon="@drawable/men"
+                    android:title="Listar" />
+            </menu>
+        </item>
+        <item android:title="Categoria">
+            <menu>
+                <item
+                    android:id="@+id/agregarCategoria"
+                    android:icon="@drawable/men"
+                    android:title="Agregar" />
+                <item
+                    android:id="@+id/eliminarCategoria"
+                    android:icon="@drawable/men"
+                    android:title="Eliminar" />
+                <item
+                    android:id="@+id/modificarCategoria"
+                    android:icon="@drawable/men"
+                    android:title="Modificar" />
+                <item
+                    android:id="@+id/listarCategoria"
+                    android:icon="@drawable/men"
+                    android:title="Listar" />
+            </menu>
+        </item>
+        <item android:title="Ingresos">
+            <menu>
+                <item
+                    android:id="@+id/agregarIngresos"
+                    android:icon="@drawable/men"
+                    android:title="Agregar" />
+            </menu>
+        </item>
+        <item android:title="Egresos">
+            <menu>
+                <item
+                    android:id="@+id/agregarEgreso"
+                    android:icon="@drawable/men"
+                    android:title="Agregar" />
+            </menu>
+        </item>
+        <item android:title="Busqueda">
+             <menu>
+                <item
+                    android:id="@+id/busquedaInEgre"
+                    android:icon="@drawable/men"
+                    android:title="Busqueda" />
+             </menu>
+        </item>
+    </group>
+
+</menu>
